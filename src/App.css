@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(120deg, #1E1E1E 0%, #6a00ff 50%, #00dbde 100%);
+  /* color: #F5F5F5; */
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #FFFFFF;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #F0F, 0 0 20px #FF00FF;
+  }
+  to {
+    text-shadow: 0 0 20px #0FF, 0 0 40px #00FFFF;
+  }
+}

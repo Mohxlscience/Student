@@ -1,0 +1,109 @@
+/* StudentList.css */
+.table-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour le tableau */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  /* Style pour l'en-tête du tableau */
+  thead {
+    background-color: #6c5ce7;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  /* Style pour les cellules du tableau */
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style pour les lignes du corps du tableau */
+  tbody tr:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style général pour les boutons */
+  button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Effets de hover pour les boutons */
+  button:hover {
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Style spécifique pour les boutons de modification */
+  button.edit-btn {
+    background-color: #74b9ff;
+    color: white;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #0984e3;
+  }
+  
+  /* Style spécifique pour les boutons de suppression */
+  button.delete-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  button.delete-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Styles responsives */
+  @media (max-width: 768px) {
+    .table-container {
+      margin: 10px;
+      border-radius: 8px;
+    }
+  
+    th, td {
+      padding: 8px 10px;
+      font-size: 0.9rem;
+    }
+  
+    button {
+      font-size: 0.8rem;
+    }
+  }
+  /* Styles responsives */
+@media (max-width: 768px) {
+    .table-container {
+      margin: 10px; /* Réduit la marge sur les petits écrans */
+      border-radius: 8px; /* Réduit le radius sur les petits écrans */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .table-container {
+      margin: 5px; /* Réduit encore plus la marge pour les smartphones */
+      padding: 5px; /* Réduit le padding pour s'adapter à l'écran */
+      
+    }
+  }
+  

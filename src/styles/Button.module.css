@@ -1,0 +1,23 @@
+/* Button.module.css */
+.button {
+    background-color: #007bff; /* Couleur initiale du bouton */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Ajoute une transition pour les animations */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Couleur survolée */
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.4); /* Effet d'ombre sur survol */
+    transform: scale(1.05); /* Augmente la taille légèrement */
+  }
+  
+  .button:active {
+    background-color: #004085; /* Couleur au clic */
+    transform: scale(0.98); /* Réduit légèrement la taille pour effet de clic */
+  }
+  
